@@ -6,7 +6,7 @@ The project includes a modular **Python Preprocessing Pipeline**, an interactive
 
 ---
 
-## 📂 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 ├── footprint_pipeline/               # GIS Preprocessing Pipeline (Python)
@@ -35,7 +35,7 @@ The project includes a modular **Python Preprocessing Pipeline**, an interactive
 
 ---
 
-## 📐 The 10-Step GIS Mapping Workflow
+##  The 10-Step GIS Mapping Workflow
 
 ### Phase A: Collection & Extraction
 *   **Step 1: Collect Drone Images** $\rightarrow$ Raw photos stored in the `images/` directory.
@@ -63,7 +63,7 @@ The project includes a modular **Python Preprocessing Pipeline**, an interactive
 
 ---
 
-## 💻 Visualizer UI Features
+##  Visualizer UI Features
 
 1.  **3D Map Canvas**: Draws the LiDAR beach point cloud color-coded by elevation (Z height). Renders the flight path, interactive photo node markers, and ground footprints.
 2.  **Dynamic Metadata Table**: Select any photo node or list item to display a complete list of **all EXIF tags** (calibration, orientation, GPS coordinates) in a copyable table view (`QTableWidget`).
@@ -71,33 +71,3 @@ The project includes a modular **Python Preprocessing Pipeline**, an interactive
 4.  **GDAL Elevation Query**: Hovering the mouse over the map canvas queries the underlying Digital Surface Model (`dsm.tif`) using GDAL in real-time, showing the exact terrain elevation (meters) in the status bar.
 5.  **Scrollable Sidebar Panel**: Sidebar elements adapt dynamically to any screen height and window scale via `QScrollArea`.
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-*   **Python 3.10+** (with packages `pyproj`)
-*   **ExifTool** (added to system PATH)
-*   **Qt6** and **GDAL** C++ library binaries
-
----
-
-### 1. Running the Preprocessing Pipeline (Python)
-Open a terminal and execute:
-```powershell
-& "C:\Users\knrao\AppData\Local\Programs\Python\Python310\python.exe" "d:\DRDO\drone points\footprint_pipeline\run_pipeline.py"
-```
-
-### 2. Running the Python Visualizer (PySide6)
-```powershell
-& "C:\Users\knrao\AppData\Local\Programs\Python\Python310\python.exe" "d:\DRDO\drone points\python_qt6_visualizer\main.py"
-```
-
-### 3. Running the C++ Visualizer (Qt Creator)
-1. Open **Qt Creator**, click **Open Project**, and select:
-   `d:\DRDO\drone points\cpp_qt6_visualizer\CMakeLists.txt`
-2. Go to the **Projects** tab (left sidebar) $\rightarrow$ select **Run Settings** (next to Build Settings).
-3. Under the **Environment** section, click **Details** next to *Use Build Environment*.
-4. Select the **`PATH`** variable, click **Edit**, and prepend `C:\msys64\mingw64\bin;` to the very beginning.
-5. Press the green **Play** button (or `Ctrl + R`) to compile and launch!
