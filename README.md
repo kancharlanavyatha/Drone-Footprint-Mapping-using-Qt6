@@ -35,7 +35,7 @@ The project includes a modular **Python Preprocessing Pipeline**, an interactive
 
 ---
 
-##  The 10-Step GIS Mapping Workflow
+##   GIS Mapping Workflow
 
 ### Phase A: Collection & Extraction
 *   **Step 1: Collect Drone Images** $\rightarrow$ Raw photos stored in the `images/` directory.
