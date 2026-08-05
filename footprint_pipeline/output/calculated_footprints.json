@@ -1,0 +1,740 @@
+[
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0018.JPG",
+        "GPSLatitude": 46.8426070833333,
+        "GPSLongitude": -91.9945598888889,
+        "GPSAltitude": 198.309,
+        "RelativeAltitude": "+39.80",
+        "GimbalYawDegree": "+45.00",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576663.0979257174,
+        "utm_y": 5188164.556129866,
+        "ground_width_m": 68.02382271468144,
+        "ground_height_m": 50.16343490304708,
+        "corners_utm": [
+            [
+                576656.7833250492,
+                5188206.3416355215
+            ],
+            [
+                576704.883431373,
+                5188158.241529198
+            ],
+            [
+                576669.4125263855,
+                5188122.770624211
+            ],
+            [
+                576621.3124200617,
+                5188170.870730534
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0019.JPG",
+        "GPSLatitude": 46.8426906666667,
+        "GPSLongitude": -91.9944272777778,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+42.80",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576673.0903083232,
+        "utm_y": 5188173.9735533185,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576665.1166547613,
+                5188215.798762682
+            ],
+            [
+                576715.4039793833,
+                5188169.2321895035
+            ],
+            [
+                576681.063961885,
+                5188132.148343955
+            ],
+            [
+                576630.776637263,
+                5188178.714917134
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0020.JPG",
+        "GPSLatitude": 46.8427775833333,
+        "GPSLongitude": -91.9942993888889,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+44.20",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576682.7178580675,
+        "utm_y": 5188183.756790539,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576675.7684656892,
+                5188225.7643283745
+            ],
+            [
+                576724.903056219,
+                5188177.983026919
+            ],
+            [
+                576689.6672504458,
+                5188141.749252704
+            ],
+            [
+                576640.532659916,
+                5188189.53055416
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0021.JPG",
+        "GPSLatitude": 46.8428651388889,
+        "GPSLongitude": -91.9941766388889,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+45.00",
+        "GimbalPitchDegree": -90.0,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576691.9526397664,
+        "utm_y": 5188193.606020248,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576685.5904416058,
+                5188235.706492026
+            ],
+            [
+                576734.053111545,
+                5188187.2438220875
+            ],
+            [
+                576698.314837927,
+                5188151.505548469
+            ],
+            [
+                576649.8521679877,
+                5188199.968218408
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0022.JPG",
+        "GPSLatitude": 46.8429515833333,
+        "GPSLongitude": -91.9940517222222,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": "+45.30",
+        "GimbalPitchDegree": -90.0,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576701.3541748701,
+        "utm_y": 5188203.33391159,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576695.2278163646,
+                5188245.362048164
+            ],
+            [
+                576743.3158531109,
+                5188196.767779425
+            ],
+            [
+                576707.4805333755,
+                5188161.305775017
+            ],
+            [
+                576659.3924966293,
+                5188209.900043756
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0023.JPG",
+        "GPSLatitude": 46.8430380555556,
+        "GPSLongitude": -91.9939230555556,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": "+43.80",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576711.0415666439,
+        "utm_y": 5188213.068567802,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576703.81713913,
+                5188254.921933013
+            ],
+            [
+                576753.1607469678,
+                5188207.603114367
+            ],
+            [
+                576718.2659941578,
+                5188171.215202591
+            ],
+            [
+                576668.92238632,
+                5188218.534021237
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0024.JPG",
+        "GPSLatitude": 46.8428646111111,
+        "GPSLongitude": -91.9936966666667,
+        "GPSAltitude": 198.409,
+        "RelativeAltitude": "+39.90",
+        "GimbalYawDegree": -140.0,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576728.5500446155,
+        "utm_y": 5188194.016188617,
+        "ground_width_m": 68.19473684210527,
+        "ground_height_m": 50.28947368421052,
+        "corners_utm": [
+            [
+                576738.5074189284,
+                5188152.836836741
+            ],
+            [
+                576686.2672197206,
+                5188196.671568629
+            ],
+            [
+                576718.5926703026,
+                5188235.195540492
+            ],
+            [
+                576770.8328695104,
+                5188191.360808604
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0025.JPG",
+        "GPSLatitude": 46.8427738611111,
+        "GPSLongitude": -91.9938259444444,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": -132.0,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576718.8221430643,
+        "utm_y": 5188183.805551228,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576722.9619042019,
+                5188141.535480136
+            ],
+            [
+                576677.2163547145,
+                5188192.341059895
+            ],
+            [
+                576714.6823819268,
+                5188226.07562232
+            ],
+            [
+                576760.4279314142,
+                5188175.270042561
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0026.JPG",
+        "GPSLatitude": 46.84269025,
+        "GPSLongitude": -91.9939543888889,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": -132.0,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576709.1475857189,
+        "utm_y": 5188174.389033363,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576713.2976962592,
+                5188132.0132870935
+            ],
+            [
+                576667.4377828982,
+                5188182.9458808005
+            ],
+            [
+                576704.9974751786,
+                5188216.764779633
+            ],
+            [
+                576750.8573885396,
+                5188165.832185926
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0027.JPG",
+        "GPSLatitude": 46.8426053888889,
+        "GPSLongitude": -91.9940827777778,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": -131.3,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576699.479012907,
+        "utm_y": 5188164.833683079,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576703.1020515988,
+                5188122.516191152
+            ],
+            [
+                576657.9806079277,
+                5188173.876852688
+            ],
+            [
+                576695.8559742152,
+                5188207.151175006
+            ],
+            [
+                576740.9774178864,
+                5188155.79051347
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0028.JPG",
+        "GPSLatitude": 46.84252125,
+        "GPSLongitude": -91.9942096111111,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": -133.5,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576689.9279891466,
+        "utm_y": 5188155.360122817,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576695.1859452673,
+                5188113.107534885
+            ],
+            [
+                576648.0084870805,
+                5188162.822202684
+            ],
+            [
+                576684.6700330258,
+                5188197.612710748
+            ],
+            [
+                576731.8474912127,
+                5188147.898042949
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0029.JPG",
+        "GPSLatitude": 46.8424339166667,
+        "GPSLongitude": -91.9943333888889,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": -131.4,
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576680.6144606455,
+        "utm_y": 5188145.534587852,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576684.3205939659,
+                5188103.117706009
+            ],
+            [
+                576638.9965502587,
+                5188154.527742163
+            ],
+            [
+                576676.908327325,
+                5188187.951469694
+            ],
+            [
+                576722.2323710322,
+                5188136.54143354
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0030.JPG",
+        "GPSLatitude": 46.8422816111111,
+        "GPSLongitude": -91.9940841666667,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+44.20",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576699.8339450595,
+        "utm_y": 5188128.85341998,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576692.8845526811,
+                5188170.860957815
+            ],
+            [
+                576742.019143211,
+                5188123.07965636
+            ],
+            [
+                576706.7833374378,
+                5188086.845882145
+            ],
+            [
+                576657.648746908,
+                5188134.6271836
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0031.JPG",
+        "GPSLatitude": 46.8423714722222,
+        "GPSLongitude": -91.9939535555555,
+        "GPSAltitude": 198.709,
+        "RelativeAltitude": "+40.20",
+        "GimbalYawDegree": "+41.40",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576709.6649004426,
+        "utm_y": 5188138.966551307,
+        "ground_width_m": 68.70747922437674,
+        "ground_height_m": 50.66759002770083,
+        "corners_utm": [
+            [
+                576700.6493193127,
+                5188180.688247005
+            ],
+            [
+                576752.1875600453,
+                5188135.251175758
+            ],
+            [
+                576718.6804815725,
+                5188097.244855608
+            ],
+            [
+                576667.1422408399,
+                5188142.681926855
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0032.JPG",
+        "GPSLatitude": 46.8424584444444,
+        "GPSLongitude": -91.9938293055556,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+42.00",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576719.0149130942,
+        "utm_y": 5188148.752465595,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576710.4580656564,
+                5188190.462268415
+            ],
+            [
+                576761.390659364,
+                5188144.602355055
+            ],
+            [
+                576727.5717605321,
+                5188107.042662774
+            ],
+            [
+                576676.6391668244,
+                5188152.902576135
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0033.JPG",
+        "GPSLatitude": 46.84254325,
+        "GPSLongitude": -91.9937026944445,
+        "GPSAltitude": 198.609,
+        "RelativeAltitude": "+40.10",
+        "GimbalYawDegree": "+42.90",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576728.548009696,
+        "utm_y": 5188158.299936924,
+        "ground_width_m": 68.53656509695291,
+        "ground_height_m": 50.541551246537395,
+        "corners_utm": [
+            [
+                576720.647367003,
+                5188200.138999227
+            ],
+            [
+                576770.853341072,
+                5188153.4847290795
+            ],
+            [
+                576736.4486523889,
+                5188116.460874621
+            ],
+            [
+                576686.2426783199,
+                5188163.115144769
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0034.JPG",
+        "GPSLatitude": 46.8426292777778,
+        "GPSLongitude": -91.9935786666667,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": "+44.70",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576737.882361831,
+        "utm_y": 5188167.980715771,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576731.3162296647,
+                5188209.942394012
+            ],
+            [
+                576779.9104984049,
+                5188161.854357266
+            ],
+            [
+                576744.4484939973,
+                5188126.019037531
+            ],
+            [
+                576695.8542252572,
+                5188174.107074277
+            ]
+        ]
+    },
+    {
+        "SourceFile": "d:/DRDO/drone points/drone_dataset_brighton_beach-master/images/DJI_0035.JPG",
+        "GPSLatitude": 46.8427165555556,
+        "GPSLongitude": -91.9934553055556,
+        "GPSAltitude": 198.509,
+        "RelativeAltitude": "+40.00",
+        "GimbalYawDegree": "+45.30",
+        "GimbalPitchDegree": -89.9,
+        "GimbalRollDegree": "+0.00",
+        "FocalLength": 3.61,
+        "ImageWidth": 4000,
+        "ImageHeight": 2250,
+        "sensor_width_mm": 6.17,
+        "sensor_height_mm": 4.55,
+        "fov_h_rad": 1.4142831540205423,
+        "fov_v_rad": 1.1246510865689097,
+        "fov_h_deg": 81.03245576182763,
+        "fov_v_deg": 64.43776068520071,
+        "utm_x": 576747.1640715592,
+        "utm_y": 5188177.799760949,
+        "ground_width_m": 68.36565096952909,
+        "ground_height_m": 50.41551246537396,
+        "corners_utm": [
+            [
+                576741.0377130538,
+                5188219.827897523
+            ],
+            [
+                576789.1257498,
+                5188171.233628783
+            ],
+            [
+                576753.2904300647,
+                5188135.771624375
+            ],
+            [
+                576705.2023933184,
+                5188184.365893114
+            ]
+        ]
+    }
+]
