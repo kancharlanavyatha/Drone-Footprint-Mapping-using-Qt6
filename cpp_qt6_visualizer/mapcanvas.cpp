@@ -241,9 +241,8 @@ void MapCanvas::paintEvent(QPaintEvent *event) {
         if (qimg) {
             painter.save();
 
-            double h = imgData.relative_altitude;
             double W_ground = 2.0 * h * 0.857;
-            double H_ground = 2.0 * h * 0.643;
+            double H_ground = 2.0 * h * 0.481;
             QPointF sc = toScreen(imgData.utm_x, imgData.utm_y);
 
             QTransform t;
@@ -269,7 +268,7 @@ void MapCanvas::paintEvent(QPaintEvent *event) {
             const auto& imgData = droneImages[idx];
             double h = imgData.relative_altitude;
             double W_ground = 2.0 * h * 0.857;
-            double H_ground = 2.0 * h * 0.643;
+            double H_ground = 2.0 * h * 0.481;
 
             double yaw_rad = imgData.gimbal_yaw * M_PI / 180.0;
             double cos_y = std::cos(yaw_rad);
@@ -458,7 +457,7 @@ bool MapCanvas::exportFootprintsToGeoJSON(const QString& outputPath) {
         const auto& imgData = droneImages[idx];
         double h = imgData.relative_altitude;
         double W_ground = 2.0 * h * 0.857;
-        double H_ground = 2.0 * h * 0.643;
+        double H_ground = 2.0 * h * 0.481;
 
         double yaw_rad = imgData.gimbal_yaw * M_PI / 180.0;
         double cos_y = std::cos(yaw_rad);
