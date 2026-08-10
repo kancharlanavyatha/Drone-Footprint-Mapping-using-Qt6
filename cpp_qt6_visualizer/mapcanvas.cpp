@@ -238,26 +238,26 @@ void MapCanvas::paintEvent(QPaintEvent *event) {
     if (showImageOverlay && selectedIdx != -1) {
         const DroneImage& imgData = droneImages[selectedIdx];
         QImage *qimg = loadCachedImage(imgData.filename);
-        if (qimg) {
+        if (qimg && imgData.corners_utm.size() >= 4) {
             painter.save();
 
-            double W_ground = 2.0 * h * 0.857;
-            double H_ground = 2.0 * h * 0.481;
-            QPointF sc = toScreen(imgData.utm_x, imgData.utm_y);
+            QPolygonF srcQuad;
+            srcQuad << QPointF(0, 0)
+                    << QPointF(qimg->width(), 0)
+                    << QPointF(qimg->width(), qimg->height())
+                    << QPointF(0, qimg->height());
 
-            QTransform t;
-            // Translate to drone center
-            t.translate(sc.x(), sc.y());
-            // Rotate by yaw
-            t.rotate(imgData.gimbal_yaw);
-            // Scale from image pixels to screen footprint dimensions (meters * zoom)
-            t.scale(W_ground * zoom / qimg->width(), H_ground * zoom / qimg->height());
-            // Center the image
-            t.translate(-qimg->width() / 2.0, -qimg->height() / 2.0);
+            QPolygonF dstQuad;
+            for (int i = 0; i < 4; ++i) {
+                dstQuad << toScreen(imgData.corners_utm[i].x(), imgData.corners_utm[i].y());
+            }
 
-            painter.setTransform(t);
-            painter.setOpacity(0.7);
-            painter.drawImage(0, 0, *qimg);
+            QTransform trans;
+            if (QTransform::quadToQuad(srcQuad, dstQuad, trans)) {
+                painter.setTransform(trans);
+                painter.setOpacity(0.7);
+                painter.drawImage(0, 0, *qimg);
+            }
             painter.restore();
         }
     }
@@ -266,28 +266,11 @@ void MapCanvas::paintEvent(QPaintEvent *event) {
     if (showFootprints && !droneImages.isEmpty()) {
         for (int idx = 0; idx < droneImages.size(); ++idx) {
             const auto& imgData = droneImages[idx];
-            double h = imgData.relative_altitude;
-            double W_ground = 2.0 * h * 0.857;
-            double H_ground = 2.0 * h * 0.481;
+            if (imgData.corners_utm.size() < 4) continue;
 
-            double yaw_rad = imgData.gimbal_yaw * M_PI / 180.0;
-            double cos_y = std::cos(yaw_rad);
-            double sin_y = std::sin(yaw_rad);
-
-            // Local corners relative to camera center
-            QPointF corners[4] = {
-                QPointF(-W_ground/2.0, H_ground/2.0),
-                QPointF(W_ground/2.0, H_ground/2.0),
-                QPointF(W_ground/2.0, -H_ground/2.0),
-                QPointF(-W_ground/2.0, -H_ground/2.0)
-            };
-
-            // Project to map and then screen
             QPointF screenCorners[4];
             for (int i = 0; i < 4; ++i) {
-                double mx = imgData.utm_x + corners[i].x() * cos_y + corners[i].y() * sin_y;
-                double my = imgData.utm_y - corners[i].x() * sin_y + corners[i].y() * cos_y;
-                screenCorners[i] = toScreen(mx, my);
+                screenCorners[i] = toScreen(imgData.corners_utm[i].x(), imgData.corners_utm[i].y());
             }
 
             if (idx == selectedIdx) {
@@ -455,45 +438,33 @@ bool MapCanvas::exportFootprintsToGeoJSON(const QString& outputPath) {
 
     for (int idx = 0; idx < droneImages.size(); ++idx) {
         const auto& imgData = droneImages[idx];
-        double h = imgData.relative_altitude;
-        double W_ground = 2.0 * h * 0.857;
-        double H_ground = 2.0 * h * 0.481;
-
-        double yaw_rad = imgData.gimbal_yaw * M_PI / 180.0;
-        double cos_y = std::cos(yaw_rad);
-        double sin_y = std::sin(yaw_rad);
-
-        // Local corners
-        QPointF corners[4] = {
-            QPointF(-W_ground/2.0, H_ground/2.0),
-            QPointF(W_ground/2.0, H_ground/2.0),
-            QPointF(W_ground/2.0, -H_ground/2.0),
-            QPointF(-W_ground/2.0, -H_ground/2.0)
-        };
-
-        // Project local to UTM 15N and then to GPS Lat/Lon
         double gps_lon[5];
         double gps_lat[5];
         double gps_z[5] = {0, 0, 0, 0, 0};
 
-        for (int i = 0; i < 4; ++i) {
-            double mx = imgData.utm_x + corners[i].x() * cos_y + corners[i].y() * sin_y;
-            double my = imgData.utm_y - corners[i].x() * sin_y + corners[i].y() * cos_y;
+        if (imgData.corners_utm.size() >= 4) {
+            for (int i = 0; i < 4; ++i) {
+                double lon_val = imgData.corners_utm[i].x();
+                double lat_val = imgData.corners_utm[i].y();
+                double z_val = 0.0;
 
-            double lon_val = mx;
-            double lat_val = my;
-            double z_val = 0.0;
-
-            if (poCT_to_GPS->Transform(1, &lon_val, &lat_val, &z_val)) {
-                gps_lon[i] = lon_val;
-                gps_lat[i] = lat_val;
-            } else {
-                gps_lon[i] = mx;
-                gps_lat[i] = my;
+                if (poCT_to_GPS->Transform(1, &lon_val, &lat_val, &z_val)) {
+                    gps_lon[i] = lon_val;
+                    gps_lat[i] = lat_val;
+                } else {
+                    gps_lon[i] = imgData.corners_utm[i].x();
+                    gps_lat[i] = imgData.corners_utm[i].y();
+                }
+            }
+            gps_lon[4] = gps_lon[0];
+            gps_lat[4] = gps_lat[0];
+        } else {
+            // Fill default fallback
+            for (int i = 0; i < 5; ++i) {
+                gps_lon[i] = imgData.utm_x;
+                gps_lat[i] = imgData.utm_y;
             }
         }
-        gps_lon[4] = gps_lon[0];
-        gps_lat[4] = gps_lat[0];
 
         // Format Feature
         out << "    {\n";

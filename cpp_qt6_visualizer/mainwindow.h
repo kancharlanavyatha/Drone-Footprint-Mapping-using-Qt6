@@ -26,6 +26,7 @@ struct DroneImage {
     double gimbal_pitch;       // Camera tilt angle (-90 is straight down)
     double gimbal_yaw;         // Camera orientation angle relative to North (0-360)
     double gimbal_roll;        // Camera roll angle
+    QVector<QPointF> corners_utm; // 4 ground UTM corner coordinates
 };
 
 // Struct to store a single point in the 3D point cloud

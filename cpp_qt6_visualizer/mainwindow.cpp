@@ -260,6 +260,16 @@ void MainWindow::loadDatasets() {
                 di.gimbal_pitch = obj["GimbalPitchDegree"].toDouble();
                 di.gimbal_yaw = obj["GimbalYawDegree"].toVariant().toDouble();
                 di.gimbal_roll = obj["GimbalRollDegree"].toVariant().toDouble();
+                
+                if (obj.contains("corners_utm")) {
+                    QJsonArray corners = obj["corners_utm"].toArray();
+                    for (int c = 0; c < corners.size(); ++c) {
+                        QJsonArray pt = corners[c].toArray();
+                        if (pt.size() >= 2) {
+                            di.corners_utm.append(QPointF(pt[0].toDouble(), pt[1].toDouble()));
+                        }
+                    }
+                }
             } else {
                 di.filename = obj["filename"].toString();
                 di.latitude = obj["latitude"].toDouble();
@@ -271,6 +281,26 @@ void MainWindow::loadDatasets() {
                 di.gimbal_pitch = obj["gimbal_pitch"].toDouble();
                 di.gimbal_yaw = obj["gimbal_yaw"].toDouble();
                 di.gimbal_roll = obj["gimbal_roll"].toDouble();
+            }
+
+            // Fallback corners calculation if corners_utm was not loaded
+            if (di.corners_utm.size() < 4) {
+                double W_ground = 2.0 * di.relative_altitude * 0.857;
+                double H_ground = 2.0 * di.relative_altitude * 0.481;
+                double yaw_rad = di.gimbal_yaw * M_PI / 180.0;
+                double cos_y = std::cos(yaw_rad);
+                double sin_y = std::sin(yaw_rad);
+                QPointF local_corners[4] = {
+                    QPointF(-W_ground/2.0, H_ground/2.0),
+                    QPointF(W_ground/2.0, H_ground/2.0),
+                    QPointF(W_ground/2.0, -H_ground/2.0),
+                    QPointF(-W_ground/2.0, -H_ground/2.0)
+                };
+                for (int c = 0; c < 4; ++c) {
+                    double mx = di.utm_x + local_corners[c].x() * cos_y + local_corners[c].y() * sin_y;
+                    double my = di.utm_y - local_corners[c].x() * sin_y + local_corners[c].y() * cos_y;
+                    di.corners_utm.append(QPointF(mx, my));
+                }
             }
 
             droneImages.append(di);
