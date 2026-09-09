@@ -17,11 +17,19 @@ def build_polygon_and_export(footprint_data, output_geojson):
     for item in footprint_data:
         filename = os.path.basename(item.get("SourceFile", ""))
         
-        # Project corners back to standard GPS degrees
+        # Project corners back to standard GPS degrees (with elevation Z for 3D GIS)
         gps_coords = []
-        for mx, my in item["corners_utm"]:
+        has_3d = "corners_utm_3d" in item and len(item["corners_utm_3d"]) == 4
+        
+        for i in range(4):
+            mx = item["corners_utm"][i][0]
+            my = item["corners_utm"][i][1]
             lon, lat = transformer.transform(mx, my)
-            gps_coords.append([lon, lat])
+            if has_3d:
+                elev = round(float(item["corners_utm_3d"][i][2]), 2)
+                gps_coords.append([round(lon, 7), round(lat, 7), elev])
+            else:
+                gps_coords.append([round(lon, 7), round(lat, 7)])
             
         # Close the loop
         gps_coords.append(gps_coords[0])
