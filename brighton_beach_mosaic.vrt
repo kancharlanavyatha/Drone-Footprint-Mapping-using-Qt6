@@ -1,0 +1,616 @@
+<VRTDataset rasterXSize="9782" rasterYSize="9790">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 15N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-93],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32615"]]</SRS>
+  <GeoTransform>  5.7662876476800011e+05,  1.5643464217111516e-02,  0.0000000000000000e+00,  5.1882475289540002e+06,  0.0000000000000000e+00, -1.5643464217111516e-02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">101.03107729023</MDI>
+      <MDI key="STATISTICS_STDDEV">52.958082213966</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.56</MDI>
+    </Metadata>
+    <ColorInterp>Red</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0018_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4419" />
+      <DstRect xOff="0" yOff="3099.82407523116" xSize="4413.41156365049" ySize="4398.48121329984" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0019_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4369" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4369" />
+      <DstRect xOff="598.393902398781" yOff="2505.05696542286" xSize="4413.19039740844" ySize="4348.49545473105" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0020_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4421" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4421" ySize="4402" />
+      <DstRect xOff="1227.63879108899" yOff="1863.1392379446" xSize="4407.54084739455" ySize="4388.59869039376" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0021_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4397" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4397" ySize="4419" />
+      <DstRect xOff="1821.70115291164" yOff="1229.44500866482" xSize="4383.55283650457" ySize="4405.48555481321" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0022_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4450" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4450" ySize="4426" />
+      <DstRect xOff="2431.9973486639" yOff="610.418502422341" xSize="4387.48693431376" ySize="4363.82408343206" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0023_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4511" RasterYSize="4393" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4511" ySize="4393" />
+      <DstRect xOff="3040.19230905933" yOff="0" xSize="4447.75638695894" ySize="4331.41073108194" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0024_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4527" RasterYSize="4295" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4527" ySize="4295" />
+      <DstRect xOff="4061.7145485166" yOff="1282.42566493047" xSize="4563.28360720528" ySize="4329.42414246668" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0025_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4428" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4428" ySize="4478" />
+      <DstRect xOff="3539.93191222091" yOff="1837.20278323243" xSize="4481.07930622007" ySize="4531.6786660464" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0026_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4295" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4295" ySize="4478" />
+      <DstRect xOff="2991.12209741385" yOff="2433.0453581859" xSize="4374.2048726155" ySize="4560.5796087479" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0027_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4147" RasterYSize="4490" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4147" ySize="4490" />
+      <DstRect xOff="2348.53035043361" yOff="2992.15738610216" xSize="4376.65067982634" ySize="4738.64517782017" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0028_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4364" RasterYSize="4450" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4364" ySize="4450" />
+      <DstRect xOff="1704.46419218998" yOff="3729.50237808803" xSize="4459.13958158462" ySize="4547.01446793115" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0029_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4777" RasterYSize="4489" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4777" ySize="4489" />
+      <DstRect xOff="1135.3724375546" yOff="4635.79958984126" xSize="4407.03409804756" ySize="4141.33892948199" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0030_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4670" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4670" ySize="4401.52116829496" />
+      <DstRect xOff="2321.77540063095" yOff="5456.59470408733" xSize="4597.729275434" ySize="4333.40529591267" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0031_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4667" RasterYSize="4333" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4667" ySize="4333" />
+      <DstRect xOff="2976.99788573453" yOff="4840.84336752341" xSize="4603.6623882244" ySize="4274.19522780723" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0032_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4590" RasterYSize="4349" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4590" ySize="4349" />
+      <DstRect xOff="3604.30818374605" yOff="4213.71718470678" xSize="4515.17024109789" ySize="4278.09921100974" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0033_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4350" RasterYSize="4371" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4350" ySize="4371" />
+      <DstRect xOff="4232.68695993584" yOff="3578.11474638773" xSize="4389.40723284996" ySize="4410.59747466372" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0034_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4240" RasterYSize="4413" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4240" ySize="4413" />
+      <DstRect xOff="4856.46362887451" yOff="2872.07228375155" xSize="4338.72703564452" ySize="4515.75528497625" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0035_geo.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="4255" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4255" ySize="4426" />
+      <DstRect xOff="5448.75984736523" yOff="2237.9355054749" xSize="4333.02910804642" ySize="4507.16494294089" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">8</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">114.77174049573</MDI>
+      <MDI key="STATISTICS_STDDEV">49.067806026055</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.56</MDI>
+    </Metadata>
+    <ColorInterp>Green</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0018_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4419" />
+      <DstRect xOff="0" yOff="3099.82407523116" xSize="4413.41156365049" ySize="4398.48121329984" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0019_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4369" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4369" />
+      <DstRect xOff="598.393902398781" yOff="2505.05696542286" xSize="4413.19039740844" ySize="4348.49545473105" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0020_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4421" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4421" ySize="4402" />
+      <DstRect xOff="1227.63879108899" yOff="1863.1392379446" xSize="4407.54084739455" ySize="4388.59869039376" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0021_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4397" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4397" ySize="4419" />
+      <DstRect xOff="1821.70115291164" yOff="1229.44500866482" xSize="4383.55283650457" ySize="4405.48555481321" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0022_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4450" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4450" ySize="4426" />
+      <DstRect xOff="2431.9973486639" yOff="610.418502422341" xSize="4387.48693431376" ySize="4363.82408343206" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0023_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4511" RasterYSize="4393" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4511" ySize="4393" />
+      <DstRect xOff="3040.19230905933" yOff="0" xSize="4447.75638695894" ySize="4331.41073108194" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0024_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4527" RasterYSize="4295" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4527" ySize="4295" />
+      <DstRect xOff="4061.7145485166" yOff="1282.42566493047" xSize="4563.28360720528" ySize="4329.42414246668" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0025_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4428" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4428" ySize="4478" />
+      <DstRect xOff="3539.93191222091" yOff="1837.20278323243" xSize="4481.07930622007" ySize="4531.6786660464" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0026_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4295" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4295" ySize="4478" />
+      <DstRect xOff="2991.12209741385" yOff="2433.0453581859" xSize="4374.2048726155" ySize="4560.5796087479" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0027_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4147" RasterYSize="4490" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4147" ySize="4490" />
+      <DstRect xOff="2348.53035043361" yOff="2992.15738610216" xSize="4376.65067982634" ySize="4738.64517782017" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0028_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4364" RasterYSize="4450" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4364" ySize="4450" />
+      <DstRect xOff="1704.46419218998" yOff="3729.50237808803" xSize="4459.13958158462" ySize="4547.01446793115" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0029_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4777" RasterYSize="4489" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4777" ySize="4489" />
+      <DstRect xOff="1135.3724375546" yOff="4635.79958984126" xSize="4407.03409804756" ySize="4141.33892948199" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0030_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4670" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4670" ySize="4401.52116829496" />
+      <DstRect xOff="2321.77540063095" yOff="5456.59470408733" xSize="4597.729275434" ySize="4333.40529591267" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0031_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4667" RasterYSize="4333" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4667" ySize="4333" />
+      <DstRect xOff="2976.99788573453" yOff="4840.84336752341" xSize="4603.6623882244" ySize="4274.19522780723" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0032_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4590" RasterYSize="4349" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4590" ySize="4349" />
+      <DstRect xOff="3604.30818374605" yOff="4213.71718470678" xSize="4515.17024109789" ySize="4278.09921100974" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0033_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4350" RasterYSize="4371" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4350" ySize="4371" />
+      <DstRect xOff="4232.68695993584" yOff="3578.11474638773" xSize="4389.40723284996" ySize="4410.59747466372" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0034_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4240" RasterYSize="4413" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4240" ySize="4413" />
+      <DstRect xOff="4856.46362887451" yOff="2872.07228375155" xSize="4338.72703564452" ySize="4515.75528497625" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0035_geo.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="4255" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4255" ySize="4426" />
+      <DstRect xOff="5448.75984736523" yOff="2237.9355054749" xSize="4333.02910804642" ySize="4507.16494294089" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">82.873331219944</MDI>
+      <MDI key="STATISTICS_STDDEV">52.482185034409</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">53.56</MDI>
+    </Metadata>
+    <ColorInterp>Blue</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0018_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4419" />
+      <DstRect xOff="0" yOff="3099.82407523116" xSize="4413.41156365049" ySize="4398.48121329984" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0019_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4369" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4369" />
+      <DstRect xOff="598.393902398781" yOff="2505.05696542286" xSize="4413.19039740844" ySize="4348.49545473105" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0020_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4421" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4421" ySize="4402" />
+      <DstRect xOff="1227.63879108899" yOff="1863.1392379446" xSize="4407.54084739455" ySize="4388.59869039376" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0021_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4397" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4397" ySize="4419" />
+      <DstRect xOff="1821.70115291164" yOff="1229.44500866482" xSize="4383.55283650457" ySize="4405.48555481321" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0022_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4450" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4450" ySize="4426" />
+      <DstRect xOff="2431.9973486639" yOff="610.418502422341" xSize="4387.48693431376" ySize="4363.82408343206" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0023_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4511" RasterYSize="4393" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4511" ySize="4393" />
+      <DstRect xOff="3040.19230905933" yOff="0" xSize="4447.75638695894" ySize="4331.41073108194" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0024_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4527" RasterYSize="4295" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4527" ySize="4295" />
+      <DstRect xOff="4061.7145485166" yOff="1282.42566493047" xSize="4563.28360720528" ySize="4329.42414246668" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0025_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4428" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4428" ySize="4478" />
+      <DstRect xOff="3539.93191222091" yOff="1837.20278323243" xSize="4481.07930622007" ySize="4531.6786660464" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0026_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4295" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4295" ySize="4478" />
+      <DstRect xOff="2991.12209741385" yOff="2433.0453581859" xSize="4374.2048726155" ySize="4560.5796087479" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0027_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4147" RasterYSize="4490" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4147" ySize="4490" />
+      <DstRect xOff="2348.53035043361" yOff="2992.15738610216" xSize="4376.65067982634" ySize="4738.64517782017" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0028_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4364" RasterYSize="4450" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4364" ySize="4450" />
+      <DstRect xOff="1704.46419218998" yOff="3729.50237808803" xSize="4459.13958158462" ySize="4547.01446793115" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0029_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4777" RasterYSize="4489" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4777" ySize="4489" />
+      <DstRect xOff="1135.3724375546" yOff="4635.79958984126" xSize="4407.03409804756" ySize="4141.33892948199" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0030_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4670" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4670" ySize="4401.52116829496" />
+      <DstRect xOff="2321.77540063095" yOff="5456.59470408733" xSize="4597.729275434" ySize="4333.40529591267" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0031_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4667" RasterYSize="4333" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4667" ySize="4333" />
+      <DstRect xOff="2976.99788573453" yOff="4840.84336752341" xSize="4603.6623882244" ySize="4274.19522780723" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0032_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4590" RasterYSize="4349" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4590" ySize="4349" />
+      <DstRect xOff="3604.30818374605" yOff="4213.71718470678" xSize="4515.17024109789" ySize="4278.09921100974" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0033_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4350" RasterYSize="4371" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4350" ySize="4371" />
+      <DstRect xOff="4232.68695993584" yOff="3578.11474638773" xSize="4389.40723284996" ySize="4410.59747466372" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0034_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4240" RasterYSize="4413" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4240" ySize="4413" />
+      <DstRect xOff="4856.46362887451" yOff="2872.07228375155" xSize="4338.72703564452" ySize="4515.75528497625" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0035_geo.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="4255" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4255" ySize="4426" />
+      <DstRect xOff="5448.75984736523" yOff="2237.9355054749" xSize="4333.02910804642" ySize="4507.16494294089" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0018_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4419" />
+      <DstRect xOff="0" yOff="3099.82407523116" xSize="4413.41156365049" ySize="4398.48121329984" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0019_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4434" RasterYSize="4369" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4434" ySize="4369" />
+      <DstRect xOff="598.393902398781" yOff="2505.05696542286" xSize="4413.19039740844" ySize="4348.49545473105" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0020_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4421" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4421" ySize="4402" />
+      <DstRect xOff="1227.63879108899" yOff="1863.1392379446" xSize="4407.54084739455" ySize="4388.59869039376" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0021_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4397" RasterYSize="4419" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4397" ySize="4419" />
+      <DstRect xOff="1821.70115291164" yOff="1229.44500866482" xSize="4383.55283650457" ySize="4405.48555481321" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0022_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4450" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4450" ySize="4426" />
+      <DstRect xOff="2431.9973486639" yOff="610.418502422341" xSize="4387.48693431376" ySize="4363.82408343206" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0023_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4511" RasterYSize="4393" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4511" ySize="4393" />
+      <DstRect xOff="3040.19230905933" yOff="0" xSize="4447.75638695894" ySize="4331.41073108194" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0024_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4527" RasterYSize="4295" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4527" ySize="4295" />
+      <DstRect xOff="4061.7145485166" yOff="1282.42566493047" xSize="4563.28360720528" ySize="4329.42414246668" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0025_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4428" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4428" ySize="4478" />
+      <DstRect xOff="3539.93191222091" yOff="1837.20278323243" xSize="4481.07930622007" ySize="4531.6786660464" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0026_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4295" RasterYSize="4478" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4295" ySize="4478" />
+      <DstRect xOff="2991.12209741385" yOff="2433.0453581859" xSize="4374.2048726155" ySize="4560.5796087479" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0027_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4147" RasterYSize="4490" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4147" ySize="4490" />
+      <DstRect xOff="2348.53035043361" yOff="2992.15738610216" xSize="4376.65067982634" ySize="4738.64517782017" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0028_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4364" RasterYSize="4450" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4364" ySize="4450" />
+      <DstRect xOff="1704.46419218998" yOff="3729.50237808803" xSize="4459.13958158462" ySize="4547.01446793115" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0029_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4777" RasterYSize="4489" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4777" ySize="4489" />
+      <DstRect xOff="1135.3724375546" yOff="4635.79958984126" xSize="4407.03409804756" ySize="4141.33892948199" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0030_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4670" RasterYSize="4402" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4670" ySize="4401.52116829496" />
+      <DstRect xOff="2321.77540063095" yOff="5456.59470408733" xSize="4597.729275434" ySize="4333.40529591267" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0031_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4667" RasterYSize="4333" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4667" ySize="4333" />
+      <DstRect xOff="2976.99788573453" yOff="4840.84336752341" xSize="4603.6623882244" ySize="4274.19522780723" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0032_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4590" RasterYSize="4349" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4590" ySize="4349" />
+      <DstRect xOff="3604.30818374605" yOff="4213.71718470678" xSize="4515.17024109789" ySize="4278.09921100974" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0033_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4350" RasterYSize="4371" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4350" ySize="4371" />
+      <DstRect xOff="4232.68695993584" yOff="3578.11474638773" xSize="4389.40723284996" ySize="4410.59747466372" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0034_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4240" RasterYSize="4413" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4240" ySize="4413" />
+      <DstRect xOff="4856.46362887451" yOff="2872.07228375155" xSize="4338.72703564452" ySize="4515.75528497625" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">georeferenced_images\DJI_0035_geo.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="4255" RasterYSize="4426" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="4255" ySize="4426" />
+      <DstRect xOff="5448.75984736523" yOff="2237.9355054749" xSize="4333.02910804642" ySize="4507.16494294089" />
+      <UseMaskBand>true</UseMaskBand>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>

@@ -9,6 +9,8 @@ from step1_extract_metadata import extract_metadata_using_exiftool
 from step2_sensor_and_fov import calculate_sensor_and_fov
 from step3_ground_coverage import compute_ground_coverage_and_corners
 from step4_polygon_export import build_polygon_and_export
+from step5_georeference_images import georeference_drone_images
+from build_qgis_project import build_qgis_project
 
 def main():
     print("==================================================")
@@ -36,6 +38,14 @@ def main():
     
     # Step 9-10: Build polygon & Export GeoJSON
     build_polygon_and_export(footprint_data, output_geojson)
+    
+    # Step 11: Georeference drone photos into GeoTIFFs & build VRT mosaic for QGIS
+    mosaic_vrt = os.path.join(base_dir, "brighton_beach_mosaic.vrt")
+    geotiff_dir = os.path.join(base_dir, "georeferenced_images")
+    georeference_drone_images(footprints_json, output_dir=geotiff_dir, mosaic_vrt_path=mosaic_vrt)
+    
+    # Step 12: Build & update QGIS Project (.qgz)
+    build_qgis_project()
     
     print("==================================================")
     print("PIPELINE RUN COMPLETED SUCCESSFULLY!")

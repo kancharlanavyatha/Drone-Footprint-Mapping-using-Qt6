@@ -42,7 +42,8 @@ def build_polygon_and_export(footprint_data, output_geojson):
                 "latitude": float(item.get("GPSLatitude", 0.0)),
                 "longitude": float(item.get("GPSLongitude", 0.0)),
                 "altitude_m": float(item.get("RelativeAltitude", 0.0)),
-                "yaw_deg": float(item.get("GimbalYawDegree", 0.0))
+                "yaw_deg": float(item.get("GimbalYawDegree", 0.0)),
+                "image_path": item.get("SourceFile", "")
             },
             "geometry": {
                 "type": "Polygon",
@@ -58,6 +59,11 @@ def build_polygon_and_export(footprint_data, output_geojson):
     
     with open(output_geojson, "w") as f:
         json.dump(geojson, f, indent=4)
+        
+    root_geojson = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "footprints_pipeline.geojson"))
+    if os.path.abspath(output_geojson) != root_geojson:
+        with open(root_geojson, "w") as f:
+            json.dump(geojson, f, indent=4)
         
     print(f" -> Successfully exported GeoJSON file: {output_geojson}")
     return geojson
